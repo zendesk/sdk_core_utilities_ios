@@ -1,0 +1,4 @@
+framework module ZendeskSDKCoreUtilities {
+  header "ZendeskSDKCoreUtilities-Swift.h"
+  requires objc
+}

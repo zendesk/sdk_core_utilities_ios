@@ -1,0 +1,887 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JWT",
+        "printedName": "JWT",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "externalId",
+            "printedName": "externalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities3JWTV10externalIdSSvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV10externalIdSSvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities3JWTV10externalIdSSvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV10externalIdSSvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JWT",
+                "printedName": "ZendeskSDKCoreUtilities.JWT",
+                "usr": "s:23ZendeskSDKCoreUtilities3JWTV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ZendeskSDKCoreUtilities3JWTV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23ZendeskSDKCoreUtilities3JWTV",
+        "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JWTDecoder",
+        "printedName": "JWTDecoder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(jwt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10JWTDecoderV6decode3jwtxSgSS_tSeRzlFZ",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10JWTDecoderV6decode3jwtxSgSS_tSeRzlFZ",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23ZendeskSDKCoreUtilities10JWTDecoderV",
+        "mangledName": "$s23ZendeskSDKCoreUtilities10JWTDecoderV",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplicationState",
+        "printedName": "ApplicationState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "willEnterForeground",
+            "printedName": "willEnterForeground",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKCoreUtilities.ApplicationState.Type) -> ZendeskSDKCoreUtilities.ApplicationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplicationState",
+                    "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                    "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKCoreUtilities.ApplicationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplicationState",
+                        "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO19willEnterForegroundyA2CmF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO19willEnterForegroundyA2CmF",
+            "moduleName": "ZendeskSDKCoreUtilities"
+          },
+          {
+            "kind": "Var",
+            "name": "didEnterBackground",
+            "printedName": "didEnterBackground",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKCoreUtilities.ApplicationState.Type) -> ZendeskSDKCoreUtilities.ApplicationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplicationState",
+                    "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                    "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKCoreUtilities.ApplicationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplicationState",
+                        "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO18didEnterBackgroundyA2CmF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO18didEnterBackgroundyA2CmF",
+            "moduleName": "ZendeskSDKCoreUtilities"
+          },
+          {
+            "kind": "Var",
+            "name": "willTerminate",
+            "printedName": "willTerminate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKCoreUtilities.ApplicationState.Type) -> ZendeskSDKCoreUtilities.ApplicationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApplicationState",
+                    "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                    "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKCoreUtilities.ApplicationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplicationState",
+                        "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO13willTerminateyA2CmF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO13willTerminateyA2CmF",
+            "moduleName": "ZendeskSDKCoreUtilities"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplicationState",
+                "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplicationState",
+                "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO9hashValueSivp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO9hashValueSivp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO9hashValueSivg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO9hashValueSivg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO",
+        "mangledName": "$s23ZendeskSDKCoreUtilities16ApplicationStateO",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplicationStateObserver",
+        "printedName": "ApplicationStateObserver",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onApplicationStateEvent",
+            "printedName": "onApplicationStateEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKCoreUtilities.ApplicationState) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKCoreUtilities.ApplicationState) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplicationState",
+                        "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKCoreUtilities.ApplicationState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKCoreUtilities.ApplicationState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApplicationState",
+                            "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKCoreUtilities.ApplicationState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKCoreUtilities.ApplicationState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApplicationState",
+                            "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvs",
+                "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvs",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvM",
+                "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvM",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerForApplicationStateNotifications",
+            "printedName": "registerForApplicationStateNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP011registerFordE13NotificationsyyF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP011registerFordE13NotificationsyyF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterForApplicationStateNotifications",
+            "printedName": "unregisterForApplicationStateNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP013unregisterFordE13NotificationsyyF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP013unregisterFordE13NotificationsyyF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.ApplicationStateObserver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP",
+        "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultApplicationStateObserver",
+        "printedName": "DefaultApplicationStateObserver",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onApplicationStateEvent",
+            "printedName": "onApplicationStateEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKCoreUtilities.ApplicationState) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKCoreUtilities.ApplicationState) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApplicationState",
+                        "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKCoreUtilities.ApplicationState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKCoreUtilities.ApplicationState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApplicationState",
+                            "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKCoreUtilities.ApplicationState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKCoreUtilities.ApplicationState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApplicationState",
+                            "printedName": "ZendeskSDKCoreUtilities.ApplicationState",
+                            "usr": "s:23ZendeskSDKCoreUtilities16ApplicationStateO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvs",
+                "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvs",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvM",
+                "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvM",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultApplicationStateObserver",
+                "printedName": "ZendeskSDKCoreUtilities.DefaultApplicationStateObserver",
+                "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCACycfc",
+            "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCACycfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForApplicationStateNotifications",
+            "printedName": "registerForApplicationStateNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC011registerForeF13NotificationsyyF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC011registerForeF13NotificationsyyF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterForApplicationStateNotifications",
+            "printedName": "unregisterForApplicationStateNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC013unregisterForeF13NotificationsyyF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC013unregisterForeF13NotificationsyyF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC",
+        "mangledName": "$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ApplicationStateObserver",
+            "printedName": "ApplicationStateObserver",
+            "usr": "s:23ZendeskSDKCoreUtilities24ApplicationStateObserverP",
+            "mangledName": "$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 13,
+      "value": "\"external_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 13,
+      "value": "\"external_id\""
+    }
+  ]
+}
