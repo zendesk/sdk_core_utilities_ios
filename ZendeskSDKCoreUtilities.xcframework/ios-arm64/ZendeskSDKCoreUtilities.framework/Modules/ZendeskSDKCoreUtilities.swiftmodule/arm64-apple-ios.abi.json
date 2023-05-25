@@ -16,6 +16,188 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FeatureFlagManager",
+        "printedName": "FeatureFlagManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hipaaAttachmentFlag",
+            "printedName": "hipaaAttachmentFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0Sbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0Sbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0Sbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0Sbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hipaaAttachmentFlag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagManager",
+                "printedName": "ZendeskSDKCoreUtilities.FeatureFlagManager",
+                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfc",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagManager",
+                "printedName": "ZendeskSDKCoreUtilities.FeatureFlagManager",
+                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager(im)init",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCACycfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager",
+        "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "JWT",
         "printedName": "JWT",
         "children": [
@@ -1011,6 +1193,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 18,
+      "value": "\"ZendeskSDKCoreUtilities.FeatureFlagManager\""
+    },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
