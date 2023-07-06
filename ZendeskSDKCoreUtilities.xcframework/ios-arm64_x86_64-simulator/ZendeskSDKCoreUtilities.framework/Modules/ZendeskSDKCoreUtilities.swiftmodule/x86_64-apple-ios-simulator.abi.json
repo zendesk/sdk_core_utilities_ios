@@ -38,7 +38,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -68,15 +69,175 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isMultiConvoEnabled",
+            "printedName": "isMultiConvoEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC19isMultiConvoEnabledSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC19isMultiConvoEnabledSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC19isMultiConvoEnabledSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC19isMultiConvoEnabledSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canUserCreateMoreConversations",
+            "printedName": "canUserCreateMoreConversations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC30canUserCreateMoreConversationsSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC30canUserCreateMoreConversationsSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC30canUserCreateMoreConversationsSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC30canUserCreateMoreConversationsSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enableColorsFromSettings",
+            "printedName": "enableColorsFromSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hipaaAttachmentFlag:)",
+            "printedName": "init(hipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FeatureFlagManager",
                 "printedName": "ZendeskSDKCoreUtilities.FeatureFlagManager",
-                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager"
+                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -86,11 +247,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfc",
-            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfc",
+            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)initWithHipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE019isMultiConvoEnabled30canUserCreateMoreConversationsACSb_S2btcfc",
             "moduleName": "ZendeskSDKCoreUtilities",
+            "objc_name": "initWithHipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -103,11 +266,11 @@
                 "kind": "TypeNominal",
                 "name": "FeatureFlagManager",
                 "printedName": "ZendeskSDKCoreUtilities.FeatureFlagManager",
-                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager"
+                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager(im)init",
+            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)init",
             "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCACycfc",
             "moduleName": "ZendeskSDKCoreUtilities",
             "overriding": true,
@@ -122,9 +285,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)FeatureFlagManager",
+        "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager",
         "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC",
         "moduleName": "ZendeskSDKCoreUtilities",
+        "objc_name": "ZDKFeatureFlagManager",
         "declAttributes": [
           "Final",
           "AccessControl",
@@ -1196,7 +1360,7 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 594,
       "length": 18,
       "value": "\"ZendeskSDKCoreUtilities.FeatureFlagManager\""
     },
