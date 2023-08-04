@@ -219,6 +219,37 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(hipaaAttachmentFlag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagManager",
+                "printedName": "ZendeskSDKCoreUtilities.FeatureFlagManager",
+                "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)initWithHipaaAttachmentFlag:",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "objc_name": "initWithHipaaAttachmentFlag:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(hipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:)",
             "children": [
               {
@@ -237,12 +268,14 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
@@ -1357,6 +1390,20 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1623,
+      "length": 5,
+      "value": "false"
+    },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "StringLiteral",
