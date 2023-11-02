@@ -395,6 +395,467 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Observable",
+        "printedName": "Observable",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Observed",
+            "printedName": "Observed",
+            "declKind": "AssociatedType",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP8ObservedQa",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP8ObservedQa",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "callbackQueue",
+            "printedName": "callbackQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP13callbackQueueSo17OS_dispatch_queueCvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP13callbackQueueSo17OS_dispatch_queueCvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP13callbackQueueSo17OS_dispatch_queueCvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP13callbackQueueSo17OS_dispatch_queueCvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "observers",
+            "printedName": "observers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.ObjectIdentifier : (τ_0_0.Observed) -> ()]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0.Observed) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.Observed"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.ObjectIdentifier : (τ_0_0.Observed) -> ()]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectIdentifier",
+                        "printedName": "Swift.ObjectIdentifier",
+                        "usr": "s:SO"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(τ_0_0.Observed) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DependentMember",
+                            "printedName": "τ_0_0.Observed"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.ObjectIdentifier : (τ_0_0.Observed) -> ()]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectIdentifier",
+                        "printedName": "Swift.ObjectIdentifier",
+                        "usr": "s:SO"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(τ_0_0.Observed) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DependentMember",
+                            "printedName": "τ_0_0.Observed"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvs",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvs",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvM",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvM",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addObserver",
+            "printedName": "addObserver(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Observed) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Observed"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP11addObserveryyyXl_y8ObservedQzctF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP11addObserveryyyXl_y8ObservedQzctF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeObserver",
+            "printedName": "removeObserver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP14removeObserveryyyXlF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP14removeObserveryyyXlF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "callbackQueue",
+            "printedName": "callbackQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservablePAAE13callbackQueueSo17OS_dispatch_queueCvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservablePAAE13callbackQueueSo17OS_dispatch_queueCvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservablePAAE13callbackQueueSo17OS_dispatch_queueCvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservablePAAE13callbackQueueSo17OS_dispatch_queueCvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addObserver",
+            "printedName": "addObserver(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Observed) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Observed"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservablePAAE11addObserveryyyXl_y8ObservedQzctF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservablePAAE11addObserveryyyXl_y8ObservedQzctF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeObserver",
+            "printedName": "removeObserver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservablePAAE14removeObserveryyyXlF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservablePAAE14removeObserveryyyXlF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notifyObservers",
+            "printedName": "notifyObservers(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Observed"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservablePAAE15notifyObserversyy8ObservedQzF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservablePAAE15notifyObserversyy8ObservedQzF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ZendeskSDKCoreUtilities10ObservableP",
+        "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "JWT",
         "printedName": "JWT",
         "children": [
@@ -1255,6 +1716,258 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Scheduler",
+        "printedName": "Scheduler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "schedule",
+            "printedName": "schedule(after:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScheduledTask",
+                "printedName": "ZendeskSDKCoreUtilities.ScheduledTask",
+                "usr": "s:23ZendeskSDKCoreUtilities13ScheduledTaskV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities9SchedulerP8schedule5after_AA13ScheduledTaskVSd_yyctF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities9SchedulerP8schedule5after_AA13ScheduledTaskVSd_yyctF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Scheduler>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Scheduler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ZendeskSDKCoreUtilities9SchedulerP",
+        "mangledName": "$s23ZendeskSDKCoreUtilities9SchedulerP",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScheduledTask",
+        "printedName": "ScheduledTask",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(action:cancelAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScheduledTask",
+                "printedName": "ZendeskSDKCoreUtilities.ScheduledTask",
+                "usr": "s:23ZendeskSDKCoreUtilities13ScheduledTaskV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ZendeskSDKCoreUtilities13ScheduledTaskV6action12cancelActionACyyc_yyctcfc",
+            "mangledName": "$s23ZendeskSDKCoreUtilities13ScheduledTaskV6action12cancelActionACyyc_yyctcfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities13ScheduledTaskV6cancelyyF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities13ScheduledTaskV6cancelyyF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23ZendeskSDKCoreUtilities13ScheduledTaskV",
+        "mangledName": "$s23ZendeskSDKCoreUtilities13ScheduledTaskV",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultTimeScheduler",
+        "printedName": "DefaultTimeScheduler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultTimeScheduler",
+                "printedName": "ZendeskSDKCoreUtilities.DefaultTimeScheduler",
+                "usr": "s:23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCACycfc",
+            "mangledName": "$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCACycfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "schedule",
+            "printedName": "schedule(after:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScheduledTask",
+                "printedName": "ZendeskSDKCoreUtilities.ScheduledTask",
+                "usr": "s:23ZendeskSDKCoreUtilities13ScheduledTaskV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC8schedule5after_AA13ScheduledTaskVSd_yyctF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC8schedule5after_AA13ScheduledTaskVSd_yyctF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC",
+        "mangledName": "$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Scheduler",
+            "printedName": "Scheduler",
+            "usr": "s:23ZendeskSDKCoreUtilities9SchedulerP",
+            "mangledName": "$s23ZendeskSDKCoreUtilities9SchedulerP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "URLSessionConfiguration",
         "printedName": "URLSessionConfiguration",
@@ -1424,6 +2137,27 @@
       "offset": 763,
       "length": 13,
       "value": "\"external_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
+      "kind": "Array",
+      "offset": 1152,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
+      "kind": "Dictionary",
+      "offset": 1835,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1883,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
