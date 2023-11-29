@@ -167,56 +167,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "enableColorsFromSettings",
-            "printedName": "enableColorsFromSettings",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvp",
-            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvp",
-            "moduleName": "ZendeskSDKCoreUtilities",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvg",
-                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC24enableColorsFromSettingsSbvg",
-                "moduleName": "ZendeskSDKCoreUtilities",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(hipaaAttachmentFlag:)",
@@ -2106,14 +2056,14 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1569,
+      "offset": 1393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1623,
+      "offset": 1447,
       "length": 5,
       "value": "false"
     },
