@@ -979,6 +979,72 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Pasteboard",
+        "printedName": "Pasteboard",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setString",
+            "printedName": "setString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities10PasteboardP9setStringyySSSgF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10PasteboardP9setStringyySSSgF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Pasteboard>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Pasteboard>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ZendeskSDKCoreUtilities10PasteboardP",
+        "mangledName": "$s23ZendeskSDKCoreUtilities10PasteboardP",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ApplicationState",
         "printedName": "ApplicationState",
         "children": [
