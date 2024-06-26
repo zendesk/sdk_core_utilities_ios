@@ -2269,21 +2269,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
       "kind": "Dictionary",
-      "offset": 1835,
+      "offset": 1827,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1883,
+      "offset": 1875,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
       "kind": "Array",
-      "offset": 2444,
+      "offset": 2436,
       "length": 2,
       "value": "[]"
     }
