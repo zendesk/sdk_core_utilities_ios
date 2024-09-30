@@ -167,6 +167,55 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isWaitTimeBannerEnabled",
+            "printedName": "isWaitTimeBannerEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(hipaaAttachmentFlag:)",
@@ -411,13 +460,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.ObjectIdentifier : (τ_0_0.Observed) -> ()]",
+                "printedName": "[ZendeskSDKCoreUtilities.ObservableEntity : (τ_0_0.Observed) -> ()]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
+                    "name": "ObservableEntity",
+                    "printedName": "ZendeskSDKCoreUtilities.ObservableEntity",
+                    "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV"
                   },
                   {
                     "kind": "TypeFunc",
@@ -441,8 +490,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvp",
-            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvp",
+            "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvp",
             "moduleName": "ZendeskSDKCoreUtilities",
             "protocolReq": true,
             "declAttributes": [
@@ -457,13 +506,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.ObjectIdentifier : (τ_0_0.Observed) -> ()]",
+                    "printedName": "[ZendeskSDKCoreUtilities.ObservableEntity : (τ_0_0.Observed) -> ()]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ObjectIdentifier",
-                        "printedName": "Swift.ObjectIdentifier",
-                        "usr": "s:SO"
+                        "name": "ObservableEntity",
+                        "printedName": "ZendeskSDKCoreUtilities.ObservableEntity",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV"
                       },
                       {
                         "kind": "TypeFunc",
@@ -487,8 +536,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvg",
-                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvg",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvg",
                 "moduleName": "ZendeskSDKCoreUtilities",
                 "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
                 "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
@@ -509,13 +558,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.ObjectIdentifier : (τ_0_0.Observed) -> ()]",
+                    "printedName": "[ZendeskSDKCoreUtilities.ObservableEntity : (τ_0_0.Observed) -> ()]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ObjectIdentifier",
-                        "printedName": "Swift.ObjectIdentifier",
-                        "usr": "s:SO"
+                        "name": "ObservableEntity",
+                        "printedName": "ZendeskSDKCoreUtilities.ObservableEntity",
+                        "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV"
                       },
                       {
                         "kind": "TypeFunc",
@@ -539,8 +588,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvs",
-                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvs",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvs",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvs",
                 "moduleName": "ZendeskSDKCoreUtilities",
                 "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
                 "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
@@ -560,8 +609,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvM",
-                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDySOy8ObservedQzcGvM",
+                "usr": "s:23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvM",
+                "mangledName": "$s23ZendeskSDKCoreUtilities10ObservableP9observersSDyAA0D6EntityVy8ObservedQzcGvM",
                 "moduleName": "ZendeskSDKCoreUtilities",
                 "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKCoreUtilities.Observable>",
                 "sugared_genericSig": "<Self where Self : ZendeskSDKCoreUtilities.Observable>",
@@ -948,6 +997,172 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObservableEntity",
+        "printedName": "ObservableEntity",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableEntity",
+                "printedName": "ZendeskSDKCoreUtilities.ObservableEntity",
+                "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV5valueACyXl_tcfc",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ObservableEntityV5valueACyXl_tcfc",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableEntity",
+                "printedName": "ZendeskSDKCoreUtilities.ObservableEntity",
+                "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableEntity",
+                "printedName": "ZendeskSDKCoreUtilities.ObservableEntity",
+                "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ObservableEntityV2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ObservableEntityV4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV9hashValueSivp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities16ObservableEntityV9hashValueSivp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV9hashValueSivg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities16ObservableEntityV9hashValueSivg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23ZendeskSDKCoreUtilities16ObservableEntityV",
+        "mangledName": "$s23ZendeskSDKCoreUtilities16ObservableEntityV",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
@@ -2132,14 +2347,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1393,
+      "offset": 1514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1447,
+      "offset": 1568,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1958,
       "length": 5,
       "value": "false"
     },
