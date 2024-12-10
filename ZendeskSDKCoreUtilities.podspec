@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKCoreUtilities"
-  s.version      = "3.0.0"
+  s.version      = "4.0.0"
   s.summary      = "ZendeskSDKCoreUtilities #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/sdks/ios/getting_started/"
   s.license      = {
