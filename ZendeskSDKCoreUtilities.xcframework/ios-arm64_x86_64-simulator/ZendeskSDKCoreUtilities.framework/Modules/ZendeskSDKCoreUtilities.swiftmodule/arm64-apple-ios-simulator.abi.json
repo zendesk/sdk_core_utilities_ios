@@ -216,6 +216,104 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "canUserSeeConversationList",
+            "printedName": "canUserSeeConversationList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "richTextMessageEnabled",
+            "printedName": "richTextMessageEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(hipaaAttachmentFlag:)",
@@ -249,13 +347,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:)",
+            "printedName": "init(hipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FeatureFlagManager",
                 "printedName": "ZendeskSDKCoreUtilities.FeatureFlagManager",
                 "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -279,10 +383,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)initWithHipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:",
-            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE019isMultiConvoEnabled30canUserCreateMoreConversationsACSb_S2btcfc",
+            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversationsACSb_S3btcfc",
             "moduleName": "ZendeskSDKCoreUtilities",
-            "objc_name": "initWithHipaaAttachmentFlag:isMultiConvoEnabled:canUserCreateMoreConversations:",
+            "objc_name": "initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -659,6 +763,107 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "exp",
+            "printedName": "exp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities3JWTV3expSdSgvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV3expSdSgvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities3JWTV3expSdSgvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV3expSdSgvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isJWTExpired",
+            "printedName": "isJWTExpired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities3JWTV12isJWTExpiredSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV12isJWTExpiredSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities3JWTV12isJWTExpiredSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities3JWTV12isJWTExpiredSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -751,6 +956,33 @@
         "moduleName": "ZendeskSDKCoreUtilities",
         "declAttributes": [
           "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -1476,6 +1708,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1988,6 +2230,45 @@
         "name": "String",
         "printedName": "String",
         "children": [
+          {
+            "kind": "Function",
+            "name": "htmlToAttributedString",
+            "printedName": "htmlToAttributedString(with:textColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColorSo012NSAttributedG0CSgSo6UIFontC_So7UIColorCtF",
+            "mangledName": "$sSS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColorSo012NSAttributedG0CSgSo6UIFontC_So7UIColorCtF",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Var",
             "name": "getBaseUrl",
@@ -2969,21 +3250,28 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1514,
+      "offset": 1884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1568,
+      "offset": 1938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1958,
+      "offset": 2440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2484,
       "length": 5,
       "value": "false"
     },
@@ -3011,100 +3299,177 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 763,
+      "offset": 834,
       "length": 13,
       "value": "\"external_id\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 763,
+      "offset": 867,
+      "length": 5,
+      "value": "\"exp\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
       "length": 13,
       "value": "\"external_id\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 867,
+      "length": 5,
+      "value": "\"exp\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 985,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1028,
+      "offset": 1351,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1815,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1826,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1546,
+      "offset": 1869,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1557,
+      "offset": 1880,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1671,
+      "offset": 1994,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "FloatLiteral",
-      "offset": 1689,
+      "offset": 2012,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1773,
+      "offset": 2096,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1803,
+      "offset": 2126,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1853,
+      "offset": 2176,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/JWTDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1870,
+      "offset": 2193,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 647,
+      "value": "\"<style>\n    body {\n        font: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "\";\n        font-family: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 1,
+      "value": "\";\n        color: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 1,
+      "value": "\" !important;\n        a {\n            color: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 1,
+      "value": "\" ;\n        }\n        code {\n            font-family: 'Courier New', Courier, monospace; \/* Use a monospace font *\/\n            background-color: #FAFAFA; \/* Light gray background *\/\n            color: #6a6a6a; \/* Pinkish color for the text *\/\n        }\n    }\n<\/style>\n<body>\n\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 2,
+      "value": "\"\n<\/body>\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIFont+CSS.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 46,
+      "value": "\"-apple-system, system-ui, BlinkMacSystemFont\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIFont+CSS.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 20,
+      "value": "\"-apple-system-body\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Url.swift",
@@ -3119,6 +3484,69 @@
       "offset": 993,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 637,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "FloatLiteral",
+      "offset": 734,
+      "length": 10,
+      "value": "255.999999"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "StringLiteral",
+      "offset": 848,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "FloatLiteral",
+      "offset": 889,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 18,
+      "value": "\"#%02lX%02lX%02lX\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 23,
+      "value": "\"#%02lX%02lX%02lX%02lX\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
