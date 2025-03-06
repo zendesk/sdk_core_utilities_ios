@@ -978,8 +978,28 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ZendeskSDKCoreUtilities",
         "declAttributes": [
@@ -2233,7 +2253,7 @@
           {
             "kind": "Function",
             "name": "htmlToAttributedString",
-            "printedName": "htmlToAttributedString(with:textColor:)",
+            "printedName": "htmlToAttributedString(with:textColor:codeBlocksFont:codeBlocksTextColor:codeBlocksBackgroundColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2260,12 +2280,33 @@
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColorSo012NSAttributedG0CSgSo6UIFontC_So7UIColorCtF",
-            "mangledName": "$sSS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColorSo012NSAttributedG0CSgSo6UIFontC_So7UIColorCtF",
+            "usr": "s:SS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColor14codeBlocksFont0kl4TextJ00kl10BackgroundJ0So012NSAttributedG0CSgSo6UIFontC_So7UIColorCAl2NtF",
+            "mangledName": "$sSS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColor14codeBlocksFont0kl4TextJ00kl10BackgroundJ0So012NSAttributedG0CSgSo6UIFontC_So7UIColorCAl2NtF",
             "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3418,44 +3459,149 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 699,
-      "length": 647,
+      "offset": 1455,
+      "length": 18,
+      "value": "\"CODE_BLOCK_START\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1502,
+      "length": 16,
+      "value": "\"CODE_BLOCK_END\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 433,
       "value": "\"<style>\n    body {\n        font: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 775,
+      "offset": 1623,
       "length": 1,
       "value": "\";\n        font-family: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 827,
+      "offset": 1675,
       "length": 1,
       "value": "\";\n        color: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 1720,
       "length": 1,
-      "value": "\" !important;\n        a {\n            color: \""
+      "value": "\" !important;\n    }\n<\/style>\n<body>\n\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 956,
-      "length": 1,
-      "value": "\" ;\n        }\n        code {\n            font-family: 'Courier New', Courier, monospace; \/* Use a monospace font *\/\n            background-color: #FAFAFA; \/* Light gray background *\/\n            color: #6a6a6a; \/* Pinkish color for the text *\/\n        }\n    }\n<\/style>\n<body>\n\""
+      "offset": 1819,
+      "length": 8,
+      "value": "\"<code>\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 1835,
+      "length": 31,
+      "value": "\"<pre><code>\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1865,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1902,
+      "length": 9,
+      "value": "\"<\/code>\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 2,
+      "value": "\"<\/code><\/pre>\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1952,
       "length": 2,
       "value": "\"\n<\/body>\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 1,
+      "value": "\"(.*?)\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "StringLiteral",
+      "offset": 1038,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "Array",
+      "offset": 1195,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "Array",
+      "offset": 1292,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1407,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIFont+CSS.swift",
@@ -3486,67 +3632,74 @@
       "value": "60"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "IntegerLiteral",
-      "offset": 606,
+      "offset": 686,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "IntegerLiteral",
-      "offset": 637,
+      "offset": 717,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 747,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
+      "offset": 778,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "FloatLiteral",
-      "offset": 734,
+      "offset": 814,
       "length": 10,
       "value": "255.999999"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "StringLiteral",
-      "offset": 848,
-      "length": 9,
-      "value": "\"#000000\""
+      "offset": 1135,
+      "length": 63,
+      "value": "\"rgba(\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
-      "kind": "FloatLiteral",
-      "offset": 889,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "StringLiteral",
-      "offset": 946,
-      "length": 18,
-      "value": "\"#%02lX%02lX%02lX\""
+      "offset": 1152,
+      "length": 1,
+      "value": "\", \""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+Hex.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
       "kind": "StringLiteral",
       "offset": 1167,
-      "length": 23,
-      "value": "\"#%02lX%02lX%02lX%02lX\""
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/UIColor+RGBA.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 1,
+      "value": "\")\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Scheduler.swift",
