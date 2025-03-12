@@ -168,55 +168,6 @@
           },
           {
             "kind": "Var",
-            "name": "isWaitTimeBannerEnabled",
-            "printedName": "isWaitTimeBannerEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvp",
-            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvp",
-            "moduleName": "ZendeskSDKCoreUtilities",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvg",
-                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC23isWaitTimeBannerEnabledSbvg",
-                "moduleName": "ZendeskSDKCoreUtilities",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "canUserSeeConversationList",
             "printedName": "canUserSeeConversationList",
             "children": [
@@ -255,55 +206,6 @@
                 "declKind": "Accessor",
                 "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvg",
                 "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvg",
-                "moduleName": "ZendeskSDKCoreUtilities",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "richTextMessageEnabled",
-            "printedName": "richTextMessageEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvp",
-            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvp",
-            "moduleName": "ZendeskSDKCoreUtilities",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvg",
-                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC22richTextMessageEnabledSbvg",
                 "moduleName": "ZendeskSDKCoreUtilities",
                 "implicit": true,
                 "declAttributes": [
@@ -1005,6 +907,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKCoreUtilities"
       },
       {
         "kind": "Import",
@@ -3291,28 +3200,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1884,
+      "offset": 1635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1938,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2440,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2484,
+      "offset": 1689,
       "length": 5,
       "value": "false"
     },
@@ -3550,7 +3445,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
       "kind": "StringLiteral",
-      "offset": 4841,
+      "offset": 2459,
+      "length": 26,
+      "value": "\"TextKit1ListMarkerFormat\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2527,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+HTML.swift",
+      "kind": "StringLiteral",
+      "offset": 5425,
       "length": 2,
       "value": "\"\""
     },
@@ -3616,6 +3525,34 @@
       "offset": 896,
       "length": 20,
       "value": "\"-apple-system-body\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/NSMutableAttributedString+Utils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1785,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/NSMutableAttributedString+Utils.swift",
+      "kind": "Array",
+      "offset": 1915,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/NSMutableAttributedString+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 3137,
+      "length": 5,
+      "value": "\"▪\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/NSMutableAttributedString+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 3150,
+      "length": 5,
+      "value": "\"▫\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/Extensions\/String+Url.swift",
