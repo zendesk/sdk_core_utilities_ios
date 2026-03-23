@@ -265,6 +265,55 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "endSessionEnabled",
+            "printedName": "endSessionEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC17endSessionEnabledSbvp",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC17endSessionEnabledSbvp",
+            "moduleName": "ZendeskSDKCoreUtilities",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ZendeskSDKCoreUtilities18FeatureFlagManagerC17endSessionEnabledSbvg",
+                "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC17endSessionEnabledSbvg",
+                "moduleName": "ZendeskSDKCoreUtilities",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(hipaaAttachmentFlag:)",
@@ -298,7 +347,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:)",
+            "printedName": "init(hipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:endSessionEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -338,13 +387,20 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:",
-            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversations0no11AttachmentsQ0ACSb_S4btcfc",
+            "usr": "c:@M@ZendeskSDKCoreUtilities@objc(cs)ZDKFeatureFlagManager(im)initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:endSessionEnabled:",
+            "mangledName": "$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversations0no11AttachmentsQ0010endSessionQ0ACSb_S5btcfc",
             "moduleName": "ZendeskSDKCoreUtilities",
-            "objc_name": "initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:",
+            "objc_name": "initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:endSessionEnabled:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3486,21 +3542,28 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1766,
+      "offset": 1881,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1820,
+      "offset": 1935,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1869,
+      "offset": 1984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/CoreUtilities\/CoreUtilities\/Source\/FeatureFlagManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2025,
       "length": 5,
       "value": "false"
     },
