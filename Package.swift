@@ -1,9 +1,9 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.3
 import PackageDescription
 let package = Package(
     name: "ZendeskSDKCoreUtilities",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v12)
     ],
     products: [
         .library(
